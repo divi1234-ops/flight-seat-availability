@@ -1,7 +1,7 @@
-# flight-seat-availability
+# flight-seat-availability-checking-system
 This project is a flight seat availability checking system built with C++, Oracle Database, and SQL.
 
-#Purpose
+# Purpose
 The goal of this project is to create a menu-driven application that allows users to check, book, and cancel flight seats in real time. It uses C++ and connects to an Oracle Database via Oracle OCCI, which stands for Oracle C++ Call Interface.
 
 This helps in:
@@ -12,7 +12,7 @@ This helps in:
 
 3. Simulating a real-world airline booking system at a smaller scale.
 
-#Features
+# Features
 1. Seat Availability Check → Retrieve available seats for a given flight.
 
 2. Book a Seat → Reduce available seats by 1 when a seat is booked.
@@ -27,7 +27,7 @@ This helps in:
 
 7. Scalable → Can be extended with GUI (Qt/JavaFX) or Web front-end (Flask/Node.js).
 
-#Usage
+# Usage
 Start the Oracle Database (XE or 19c/21c).
 
 Create the flights table:
@@ -51,7 +51,7 @@ Run the program:
 
 3. See results in real-time.
 
-Customization
+# Customization
 
 Add More Flight Data → Extend table with more flights.
 
@@ -62,7 +62,7 @@ GUI → Use Qt/GTK+ to build a desktop app instead of console.
 Web API → Wrap C++ logic with REST API and integrate with a website.
 
 
-#Dependencies
+# Dependencies
 
 1. C++ Compiler (g++, MSVC, etc.)
 
@@ -71,8 +71,7 @@ Web API → Wrap C++ logic with REST API and integrate with a website.
 3. Oracle OCCI Libraries (comes with Oracle Instant Client / full DB)
 
       occi.h
-
       oci.h
 
-4. SQL*Plus / Oracle SQL Developer (to manage database manually).
+5. SQL*Plus / Oracle SQL Developer (to manage database manually).
 
